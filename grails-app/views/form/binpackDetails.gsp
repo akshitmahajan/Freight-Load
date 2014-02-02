@@ -11,7 +11,7 @@
 
 <br>
 <!-- <g:submitButton name="addTruck" value="" /> --> 
-<g:actionSubmit value="Add Truck" onclick="addTruckRow()" />
+<!-- <g:actionSubmit value="Add Truck" onclick="addTruckRow()" /> -->
 <g:form action="pack">
 
 <table id="table_truckDetails">
@@ -42,7 +42,7 @@
      
 </g:form>
 
-<g:actionSubmit value="Add Freight" onclick="addFreightRow()" />
+<!-- <g:actionSubmit value="Add Freight" onclick="addFreightRow()" /> -->
 </div>
 
 
