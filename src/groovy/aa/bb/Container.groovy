@@ -18,7 +18,7 @@ package aa.bb;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import aa.dd.AbstractPersistable;
-
+/*comment*/
 @XStreamAlias("Container")
 public class Container extends AbstractPersistable {
 	/*
