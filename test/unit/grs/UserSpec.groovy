@@ -16,5 +16,8 @@ class UserSpec extends Specification {
     }
 
     void "test something"() {
+        expect:
+        Math.max(1, 2) == 2
+        
     }
 }

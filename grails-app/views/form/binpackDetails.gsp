@@ -7,8 +7,8 @@
 <body>
 <br>
 <div style="align: center;">
-    <h2 style="color: #333333;">Freight Load Optimizer</h2>
-
+    <h2 style="color: #333333;">Freight Load Optimizer</h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <g:actionSubmit value="Logout" action="index" />
 <br>
 <!-- <g:submitButton name="addTruck" value="" /> --> 
 <!-- <g:actionSubmit value="Add Truck" onclick="addTruckRow()" /> -->

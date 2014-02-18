@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="lenovo-PC" name="grs.FormControllerSpec" tests="1" time="3.463" timestamp="2014-02-15T22:48:28">
+  <properties />
+  <testcase classname="grs.FormControllerSpec" name="test index" time="2.542">
+    <error message="No such property: redirectArgs for class: grs.FormController" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: No such property: redirectArgs for class: grs.FormController
+	at grs.FormControllerSpec.test index(FormControllerSpec.groovy:22)
+</error>
+  </testcase>
+  <system-out><![CDATA[--Output from test index--
+]]></system-out>
+  <system-err><![CDATA[--Output from test index--
+]]></system-err>
+</testsuite>

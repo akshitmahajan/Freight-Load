@@ -1,0 +1,49 @@
+Testsuite: grs.UserAuthSpec
+Tests run: 2, Failures: 2, Errors: 0, Time elapsed: 3.108 sec
+------------- Standard Output ---------------
+--Output from authenticate user--
+--Output from username constraints--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from authenticate user--
+--Output from username constraints--
+------------- ---------------- ---------------
+
+Testcase: authenticate user took 2.16 sec
+	FAILED
+Condition not satisfied:
+
+UserAuth.findByUserNameAndPassword(userName,password) != null
+         |                         |        |         |
+         null                      admin    root123   false
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+UserAuth.findByUserNameAndPassword(userName,password) != null
+         |                         |        |         |
+         null                      admin    root123   false
+
+	at grs.UserAuthSpec.authenticate user(UserAuthSpec.groovy:27)
+
+Testcase: username constraints took 0.474 sec
+	FAILED
+Condition not satisfied:
+
+user.hasErrors() == !valid
+|    |           |  ||
+|    true        |  |true
+|                |  false
+|                false
+grs.UserAuth : (unsaved)
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+user.hasErrors() == !valid
+|    |           |  ||
+|    true        |  |true
+|                |  false
+|                false
+grs.UserAuth : (unsaved)
+
+	at grs.UserAuthSpec.username constraints(UserAuthSpec.groovy:46)
+

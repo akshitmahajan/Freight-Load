@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="lenovo-PC" name="grs.UserSpec" tests="1" time="0.123" timestamp="2014-02-15T22:48:35">
+  <properties />
+  <testcase classname="grs.UserSpec" name="test something" time="0.117" />
+  <system-out><![CDATA[--Output from test something--
+]]></system-out>
+  <system-err><![CDATA[--Output from test something--
+]]></system-err>
+</testsuite>

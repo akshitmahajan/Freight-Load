@@ -1,0 +1,15 @@
+Testsuite: grs.FormControllerSpec
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 3.463 sec
+------------- Standard Output ---------------
+--Output from test index--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test index--
+------------- ---------------- ---------------
+
+Testcase: test index took 2.449 sec
+	Caused an ERROR
+No such property: redirectArgs for class: grs.FormController
+groovy.lang.MissingPropertyException: No such property: redirectArgs for class: grs.FormController
+	at grs.FormControllerSpec.test index(FormControllerSpec.groovy:22)
+

@@ -1,0 +1,10 @@
+Testsuite: grs.UserSpec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.123 sec
+------------- Standard Output ---------------
+--Output from test something--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test something--
+------------- ---------------- ---------------
+
+Testcase: test something took 0.117 sec

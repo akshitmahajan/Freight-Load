@@ -10,11 +10,24 @@ import spock.lang.Specification
 class FormControllerSpec extends Specification {
 
     def setup() {
+        
     }
 
     def cleanup() {
     }
 
-    void "test something"() {
+    void "test index"() {
+        
+        when:
+        controller.redirectArgs.action == "displayForm"
+        
+        then:
+        view == "/form/binpackDetails"
     }
+    
+    def "saving a new compound instance and compound"() {
+        
+        
+    }
+    
 }

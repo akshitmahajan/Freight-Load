@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="0" hostname="lenovo-PC" id="0" name="FormControllerSpec" package="grs" tests="1" time="3.463" timestamp="2014-02-15T22:48:28">
+      <properties />
+
+      <testcase classname="grs.FormControllerSpec" name="test index" time="2.542">
+          <error message="No such property: redirectArgs for class: grs.FormController" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: No such property: redirectArgs for class: grs.FormController
+	at grs.FormControllerSpec.test index(FormControllerSpec.groovy:22)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from test index--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test index--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="2" hostname="lenovo-PC" id="1" name="UserAuthSpec" package="grs" tests="2" time="3.108" timestamp="2014-02-15T22:48:32">
+      <properties />
+
+      <testcase classname="grs.UserAuthSpec" name="authenticate user" time="2.19">
+          <failure message="Condition not satisfied:&#xa;&#xa;UserAuth.findByUserNameAndPassword(userName,password) != null&#xa;         |                         |        |         |&#xa;         null                      admin    root123   false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+UserAuth.findByUserNameAndPassword(userName,password) != null
+         |                         |        |         |
+         null                      admin    root123   false
+
+	at grs.UserAuthSpec.authenticate user(UserAuthSpec.groovy:27)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grs.UserAuthSpec" name="username constraints" time="0.506">
+          <failure message="Condition not satisfied:&#xa;&#xa;user.hasErrors() == !valid&#xa;|    |           |  ||&#xa;|    true        |  |true&#xa;|                |  false&#xa;|                false&#xa;grs.UserAuth : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+user.hasErrors() == !valid
+|    |           |  ||
+|    true        |  |true
+|                |  false
+|                false
+grs.UserAuth : (unsaved)
+
+	at grs.UserAuthSpec.username constraints(UserAuthSpec.groovy:46)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from authenticate user--
+--Output from username constraints--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from authenticate user--
+--Output from username constraints--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="lenovo-PC" id="2" name="UserSpec" package="grs" tests="1" time="0.123" timestamp="2014-02-15T22:48:35">
+      <properties />
+
+      <testcase classname="grs.UserSpec" name="test something" time="0.117" />
+
+      <system-out><![CDATA[--Output from test something--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test something--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

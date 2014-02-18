@@ -7,12 +7,14 @@ import aa.ee.BinPackingHelloWorld
 
 class FormController {
 
+
         def index() { 
 		//link to display form action
 		//render "Welcome to Globar Registration System"
-		redirect(action:'displayForm')
+                render (view: 'login.gsp')
+		//1redirect(action:'displayForm')
 	}
-	
+        	
 	def displayForm() {
 		
 		println Environment.getCurrent()

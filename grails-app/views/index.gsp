@@ -103,13 +103,29 @@
 			</ul>
 		</div>
 		<div id="page-body" role="main">
-			<h1>Welcome to Grails</h1>
-			<p>Congratulations, you have successfully started your first Grails application! At the moment
-			   this is the default page, feel free to modify it to either redirect to a controller or display whatever
-			   content you may choose. Below is a list of controllers that are currently deployed in this application,
-			   click on each to execute its default action:</p>
+			<h1>Welcome to Freight Load</h1>
 
-			<div id="controller-list" role="navigation">
+                        <g:if test="${flash.message}">
+                        <div class="message" role="status">${flash.message}</div>
+                        </g:if>
+            
+			<g:form name="loginForm" method="POST" controller="login" action="authenticate">
+                                <li>
+                                    <label for="username">Username:</label>
+                                    <g:textField name="username" required="required"/>
+                                </li>
+                                <li>
+                                    <label for="password">Password:</label>
+                                    <g:passwordField name="password" required="required"/>
+                                </li>
+                            
+                            <div class="button-panel">
+                                <g:submitButton name="login" value="Log in" />
+                            </div>
+                        </g:form>
+                        
+                        
+                                <div id="controller-list" role="navigation" style="display:none;">
 				<h2>Available Controllers:</h2>
 				<ul>
 					<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">

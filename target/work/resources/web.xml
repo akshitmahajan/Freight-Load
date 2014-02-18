@@ -160,7 +160,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>H2Console</servlet-name>
-    <url-pattern>/dbconsole/*</url-pattern>
+    <url-pattern>/admin/dbconsole/*</url-pattern>
   </servlet-mapping>
 
     <!-- Grails dispatcher servlet -->
