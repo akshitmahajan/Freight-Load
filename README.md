@@ -1,0 +1,1 @@
+FreightLoad is a POC project build on Groovy & Grails platform using Optaplanner and Drools as the rule based engine. It is basically a bin packing problem which take input as number of containers & number of packets and gives an optimized packing solution for the customer.
